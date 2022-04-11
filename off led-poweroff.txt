@@ -1,0 +1,2 @@
+i2cset -y -f 0 0x45 0x30 0x00
+echo 0 > /sys/class/gpio/gpio450/value
